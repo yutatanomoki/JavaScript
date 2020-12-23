@@ -8,3 +8,12 @@ while(num < max){
 }
 
 alert("2をかけて" + max + "を超えるのに必要だった回数は" + count + "回です");
+
+var i;
+var num = 0;
+
+for(i =1; i<11; i++){
+  num =num + i;
+}
+
+alert("1から10まで足算した結果は" + num + "です");
